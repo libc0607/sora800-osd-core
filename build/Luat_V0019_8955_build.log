@@ -1,0 +1,35 @@
+
+MAKE              cust_src/elua/lua
+CC                lapi.c
+CC                lauxlib.c
+CC                lbaselib.c
+CC                lcode.c
+CC                ldblib.c
+CC                ldebug.c
+CC                ldo.c
+CC                ldump.c
+CC                lfunc.c
+CC                lgc.c
+CC                linit.c
+CC                liolib.c
+CC                llex.c
+CC                lmathlib.c
+CC                lmem.c
+CC                loadlib.c
+CC                lobject.c
+CC                lopcodes.c
+CC                loslib.c
+CC                lparser.c
+CC                lstate.c
+CC                lstring.c
+CC                lstrlib.c
+CC                ltable.c
+CC                ltablib.c
+CC                ltm.c
+CC                lua.c
+CC                luac.c
+CC                lundump.c
+CC                lvm.c
+CC                lzio.c
+CC                print.c
+     11 [main] ? (16216) H:\Program\CSDTK\cygwin\crosscompiler\bin\mips-elf-gcc.exe: *** fatal error - couldn't allocate heap, Win32 error 487, base 0x4D50000, top 0x4D60000, reserve_size 61440, allocsize 65536, page_const 4096

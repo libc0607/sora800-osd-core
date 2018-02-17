@@ -19,7 +19,7 @@ PHYSICAL_MAP
         flsh_spi32m:    load
     {
             filename "flash.lod"
-            sectormap (50 x 64k, 224 x 4K)
+            sectormap (55 x 64k, 144 x 4K)
             fillvalue 0xffffffff
             fill on
             saveheader on	

@@ -122,6 +122,7 @@
     _ROM( AUXLIB_GPSCORE, luaopen_gpscore, gpscore_map) \
     _ROM( AUXLIB_CRYPTO, luaopen_crypto, crypto_map ) \
     _ROM( AUXLIB_IMAGE, luaopen_image, image_map ) \
+	_ROM( AUXLIB_IMAGE, luaopen_mpu9250, mpu9250_map ) \
     _ROM( AUXLIB_QRENCODE, luaopen_qr_encode, qr_encode_map ) \
 
 

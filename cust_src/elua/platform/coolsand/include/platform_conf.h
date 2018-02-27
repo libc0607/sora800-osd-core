@@ -123,6 +123,7 @@
     _ROM( AUXLIB_CRYPTO, luaopen_crypto, crypto_map ) \
     _ROM( AUXLIB_IMAGE, luaopen_image, image_map ) \
 	_ROM( AUXLIB_IMAGE, luaopen_mpu9250, mpu9250_map ) \
+	_ROM( AUXLIB_IMAGE, luaopen_bmp280, bmp280_map ) \
     _ROM( AUXLIB_QRENCODE, luaopen_qr_encode, qr_encode_map ) \
 
 

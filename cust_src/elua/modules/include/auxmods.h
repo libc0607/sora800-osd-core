@@ -20,6 +20,9 @@
 #define AUXLIB_MPU9250      "mpu9250"
 LUALIB_API int ( luaopen_mpu9250 )( lua_State *L );
 
+#define AUXLIB_BMP280      "bmp280"
+LUALIB_API int ( luaopen_bmp280 )( lua_State *L );
+
 #define AUXLIB_PIO      "pio"
 LUALIB_API int ( luaopen_pio )( lua_State *L );
 
